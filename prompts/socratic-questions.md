@@ -44,23 +44,32 @@ Don't write for them. Help them think more clearly by asking questions that:
 
 ## How to Use This
 
-1. Ask 3-5 questions total (not all of them)
-2. Pick questions based on what seems unclear
-3. Listen to the answers and ask follow-ups
-4. Only proceed to drafting once thinking is clear
-5. Reference their answers when drafting
+1. **Ask ONE question at a time** - don't overwhelm with multiple questions
+2. **Wait for the user to respond** before proceeding to the next question
+3. **Acknowledge their answer** and then ask the next question
+4. **Ask 3-5 questions total** based on what seems unclear
+5. **Only proceed to drafting once thinking is clear**
+6. **Reference their answers when drafting**
 
 ## Example Flow
 
 **User says:** "I want to write a PRD for AI recommendations"
 
-**You ask:**
-- "Looking at the user research, what SPECIFIC problem are task recommendations solving?"
-- "Why is this the right first AI feature given your Q1 goals?"
-- "How will we measure success?"
-- "What technical constraints exist with your current stack?"
-- "Fast to market or best in class—what's the trade-off?"
+**You ask (Question 1):**
+"Looking at the user research, what SPECIFIC problem are task recommendations solving?"
 
-**User answers each question**
+**User answers**
+
+**You acknowledge and ask (Question 2):**
+"That makes sense. Why is this the right first AI feature given your Q1 goals?"
+
+**User answers**
+
+**You acknowledge and ask (Question 3):**
+"Got it. How will we measure success?"
+
+**User answers**
+
+**You ask 2-3 more questions...**
 
 **You say:** "Based on your answers, here's what I'll draft..." and reference their specific responses.
