@@ -39,20 +39,14 @@ Files containing user interview insights, pain points, and quotes:
 
 ## How to Get Started
 
-**Option 1: Let Claude interview you**
+**Option 1: Run the setup interview (recommended)**
 
-Just start using a workflow (like writing a PRD) and when Claude notices you're missing context files, it will interview you and create them:
-
+Tell your CLI LLM:
 ```
-Help me write a PRD for [your feature]
-
-Use these files:
-@context/product-overview.md
-@context/company-strategy.md
-@templates/lennys-prd-template.md
+Help me set up my Product OS using @SETUP.md
 ```
 
-Claude will say "I notice these context files don't exist yet. Let me ask you some questions..." and build them for you.
+Your AI will interview you about your product, strategy, and users (5-10 minutes). It will create the three core context files for you.
 
 **Option 2: Create them yourself**
 
@@ -60,6 +54,8 @@ Copy existing docs you have:
 - Company all-hands slides → `company-strategy.md`
 - Product marketing pages → `product-overview.md`
 - User research docs → `user-research-[topic].md`
+
+Or just create them manually following the structure shown above.
 
 ## Tips
 

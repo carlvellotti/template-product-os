@@ -24,9 +24,25 @@ git clone https://github.com/carlvellotti/template-product-os.git
 cd template-product-os
 ```
 
-### 2. Start using it immediately
+### 2. Run the setup interview
 
-You don't need to fill in context files before starting. Just begin a workflow:
+Tell your CLI LLM:
+```
+Help me set up my Product OS using @SETUP.md
+```
+
+Your AI will interview you about:
+- Your product (what it does, who uses it, metrics)
+- Your strategy (goals, priorities, competitive landscape)
+- Your users (pain points, feedback, behavior patterns)
+
+This takes 5-10 minutes. It saves your answers to three context files in the `context/` folder.
+
+Now your Product OS knows YOUR company.
+
+### 3. Start using workflows
+
+Once setup is complete, you can start using any workflow. For example, write a PRD:
 
 ```
 Help me write a PRD for [your feature]
@@ -34,18 +50,14 @@ Help me write a PRD for [your feature]
 Use these files:
 @context/product-overview.md
 @context/company-strategy.md
+@context/user-research.md
 @templates/lennys-prd-template.md
 @prompts/socratic-questions.md
+
+Before writing, ask clarifying questions using the Socratic framework.
 ```
 
-When Claude notices you're missing context files, it will interview you:
-- "Tell me about your product and what it does"
-- "What are your current strategic goals?"
-- "What do you know about your users?"
-
-It will save your answers to the context folder. Now your Product OS knows YOUR company.
-
-### 3. Evolving system
+### 4. Evolving system
 
 Every time you use it:
 - New context gets added
