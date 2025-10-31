@@ -20,7 +20,7 @@ This is a blank template to build your own Product OS. It includes all the templ
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/[username]/template-product-os.git
+git clone https://github.com/carlvellotti/template-product-os.git
 cd template-product-os
 ```
 
